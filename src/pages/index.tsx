@@ -198,8 +198,8 @@ const Home: FC = () => {
 								borderRadius: '0 8px 8px 0', // Ensure correct radius for the second button
 							},
 							'& .Mui-selected': {
-								color: 'white',
-								backgroundColor: '#014C46',
+								color: 'white !important',
+								backgroundColor: '#014C46 !important',
 							},
 							'& .MuiToggleButton-root:not(.Mui-selected)': {
 								color: '#000',
